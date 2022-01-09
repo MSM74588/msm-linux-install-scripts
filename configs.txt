@@ -1,0 +1,348 @@
+
+[<=======================| MSM Post-install Config Checklist |=======================>]
+
+/******************************************************************************
+ *  CHECKLIST TO ENABLE SETTINGS AND CONFIGERATIONS AFTER SETTING UP SYSTEM   *
+ * FOR KDE THE THEME WILL BE BACKUP USING KONSAVE AND KDE APPLICATION CONFIGS *
+ *                       HAS TO BE BACKED UP (/.CONFIG)                       *
+ ******************************************************************************/
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ KDE Plasma                                                                   │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+[important command]
+    export PATH="$HOME/bin:$PATH" 
+    export PATH="$HOME/.local/bin:$PATH" [required for konsave]
+
+[Dolphin Plugins (addon)]
+    Remove Metadata
+    CopyTo, MoveTo
+    Bazaar plugins
+    Extract Here and Delete
+    Git
+    Mount and Unmount iso image
+    
+[General behavior]
+    Animation Speed: ~70%
+
+
+[Kwin plugins]
+    -->Workspace Behaviour > Desktop Effects
+    {enable}
+    Blur:
+        Blur Strngth: Strong (Max)
+        Noise Strength: 6 (Slider)
+    Desaturate Unresponsive Applications
+    Fading Popups
+    Fall Apart
+    Full Screen
+    Grayscale (Inactive)
+    Login
+    Logout
+    Maximze
+    Morphing Popups
+    Sliding Popups
+    Translucency: 
+        Inactive windows: opaque
+        Moving windows: max - 2
+        Dialogs: max
+        Combobox Popups: max
+        Menus: max - 1
+    Wobbly WIndows:
+        Wobbliness: 50%
+            - Wobble when moving, resizing: True
+            -Stiffness: 6
+            -Drag: 90
+            -Move factor: 10
+    Squash
+
+    Dialog Parent
+    Dim Screen for administrator Mode: True
+
+    Window Aperture
+
+    Virtual Desktop Switching Animation:
+        Slide 
+    Window Management:
+        Desktop Grid
+        Flip Switch
+    Window Open/Close Animation: Fade
+
+[Virtual Desktop]
+    2 Desktops
+
+[Window Management > Task Switcher]
+    Visualisation
+        Thumbnail Grid
+    Content:
+        Sort Order: Recently used
+                    Include "Show Desktop"
+
+[Window Management > Kwin Scripts]
+    Move Window to Center
+
+[Search > Krunner Settings]
+    Position on screen:
+        Center
+    History: 
+        Enable: True
+
+    Plugins:
+        Activities
+        Applications
+        Bookmars
+        Browser History
+        Browser Tabs
+        Calculator
+        Command Line
+        Date and time
+        Desktop Search
+        Desktop Sessions
+        Dictionary
+        Kate Sessions
+        Konsole Profiles
+        Kwin
+        Locations
+        Places
+        Plasma Desktop Shell
+        Power
+        Recent Files
+        Software Center
+        Special Characters
+        Spell Checker
+        Terminate Applications
+        Unit Converter
+        VS Code
+        Web Search Keyboards
+        Windowed widgets
+        Windows
+
+[KDE Wallet]
+        {Disable}
+
+[Input Devices > Touchpad]
+    Device Enabled: True
+    Disable While Typing: false
+    Pointer Acceleration(Slider): 0.08
+    Acceleration Profile: Adaptive
+    Tapping: 
+        Tap to click: True
+        Tap-and-drag: True
+    Two-fingertap:
+        Right-click
+    Invert Scroll Direction(natural Scrolling): True
+    Right Click: > Press Anywhere with two fingers
+    Middle-Click: > Press Anywhere with three fingers
+
+[Display and Monitor > Compositor]
+    Enable Compositorat startup: True
+    Scale Method: Acurate
+    Rendering backend: OpenGL 2.0 [later change to 3.0 as preffered]
+    Latency: Balance of latency and smoothness
+    Tearing prevention (vsync): automatic
+    Keep window Thumbnail: > Only for Shown windows
+    Allow Applications to block compositing: True
+
+[Power Management > Energy Saving]
+    {On Battery}
+    Dim Screen: 5 min
+    Suspend Session: Sleep , after 10min
+    Screen Energy Saving:
+        Switch off after: 10min
+    Button Events handling
+        When laptop lid closed: Sleep
+
+[Startup and Shutdown > Desktop Session]
+    Confirm logout: True
+    Offer Shutdown options: True
+    Default leave option: > Restore manually saved Session
+
+[Regional Settings > Spell Check]
+    > American English (United States): True
+    Enable Autodetection of language: True
+
+[KDE Connect Commands (Run Commands)]
+    {From KDE Connect Site} 
+
+[Preffered Theme]
+    Application Style: Lightly(Github)
+    GTK theme: Qogir
+    Plasma Style: Materia
+    Colors: Darkly
+    Window Decoration: Qogir-Dark
+    Fonts: Rubik or JetBrains
+    Icons: Win10Sur-dark or Reversal-purple-dark
+    Cursor: Afterglow Cursors
+    Splash Screen: FrameWork or Vimix-Dark-Bertyle or BeautifulTreeAnimation
+
+    SDDM: Sugar-Dark or Graphite or Nordic
+    GRUB theme: Feren OS or kawaiki-grub2-theme(Github)
+
+    Terminal: Fish (with) Oh-my-fish(Github)
+
+[custom KCM]
+    {Manual installation needed}
+    Plymouth KCM
+    Wacom KCM
+    SDDM KCM
+    Systemd KCM
+    Drivers KCM
+
+[KsysGaurd Tabs (addon)]
+    SystemLoad
+    GPU
+    Hard Disk Totals
+    Temperature
+    Temps/Volts/Fan
+    Power
+
+[Grub]
+    -Debug
+
+[Desktop widgets]
+    - Sticky Note
+    -Folder view
+    -CLear clock
+    - Ditto menu
+    -Process monitor > RAM, Disk, Processor, Sensors
+
+[Important Applications]
+    -ksuperkey
+    -appimage launcher
+    -Timeshift
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ GNOME                                                                        │
+└──────────────────────────────────────────────────────────────────────────────┘
+[Customisation Application]
+    Plank Dock
+    Dconf Editor
+    Gnome-tweaks
+    Pling Store
+    Stacer (Management)
+    Pop Shop
+    Grub Customizer
+    Additional-Drivers (Gnome)
+    Parental Control
+    Conky & Conky Manager
+    
+
+[Packages types and Tools]
+    Appimage
+    Appimage pool
+    Flatpak
+    Snap
+
+[Extensions (from gnome-extensions)]
+    Caffeine
+    Clipboard indicator
+    Compiz window Effects
+    Disconnect Wifi
+    Emoji Selector
+    Docker Integration (not activated)
+    GS Connect
+    iNotch (For fun) (not activated)
+    Media Controls
+    NoAnnoyance
+    OpenWeather
+    Places Status indicator
+    Quick Close in overview
+    Removable Drive Menu
+    Screenshot Tools
+    Spotify Controller
+    Time++
+    TintAll (may cause display off error)
+    Titlebar Screenshot
+    Tweaks & Extensions in System Menu
+    User Themes
+    Vitals
+    Color Picker
+
+    {Pop Specific} (pkg: pop-desktop)
+    Cosmic Dock
+    Desktop Icons NG(DING)
+    Pop Cosmic
+    Pop Shell
+    System76 Power
+    Ubuntu Appindicators
+
+[Preffered Themes]
+    Applications: Qogir or Gruvbox or WhiteSur-dark-solid
+    Cursor: Google-Dot-Blue
+    Icons: Win10Sur or Reversal or Papirus or Nordic-Darker or Gruvbox or Flatery
+    Shell: Fluent-round-dark-compact
+
+    Font: Rubik (Google font)
+
+    ... change Preffered Settings in Window Titlebar, TopBar
+
+[Terminal]
+    Alacritty
+    Tabby
+    Cool-Retro-Term
+
+[Useful App]
+    Remote Touchpad
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ Win10                                                                        │
+└──────────────────────────────────────────────────────────────────────────────┘
+[TOOLS]
+    chocolatey
+    Chris-Titus-Win-Tweaker (website)[Poweshell]
+    GenP (Reddit)
+    MakeWindows10GreatAgain (Github)
+    Microsoft-Activation-Scripts-master (Github)
+    Windows Terminal
+    WinGet 
+    WSL 
+    Edge deflector
+    Adobe Acrobat
+
+[Online Tool]
+    Ninite
+
+[Web Extenstion]
+    Enhancer for youtube: https://chrome.google.com/webstore/detail/enhancer-for-youtube/ponfpcnoihfmfllpaingbgckeeldkhle/related
+    OneTab
+    INSSIST
+    Strict Workflow
+    Plasma Integration(KDE plasma only)
+    RainDrop
+    DFtube
+    PeekCSS(Dev Tools)
+    I don't care about cookies
+    Return Youtube Dislike
+    Dark Reader
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ Android TV                                                                   │
+└──────────────────────────────────────────────────────────────────────────────┘
+[Tools]
+    Send Files to TV
+[Sideloaded Apps]
+    SMTube
+    Popcorn Time
+    Button Remapper
+    App to Power on LAN (playstore)
+
+[Useful]
+    Spotify
+
+
+
+######## BACKUP ########
+
+Konsave
+apt export
+Wallpaper(Github)
+~/.Config
+Keyboard shortcuts
+.bashrc
+.fishrc
+
+Browsers: Vivaldi, Firefox, Min, Brave, Edge, Opera, 
+falkon, GnomeWeb, DeGoogledChrome(Github), Chromium
+
+###########################################################################

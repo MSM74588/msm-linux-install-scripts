@@ -1,0 +1,110 @@
+Arduino IDE	cc.arduino.arduinoide	1.8.16	stable	user
+OpenBoard	ch.openboard.OpenBoard	1.6.1	stable	user
+AnyDesk	com.anydesk.Anydesk	6.1.1	stable	user
+Avocode	com.avocode.Avocode	4.14.3-9376	stable	user
+GitKraken	com.axosoft.GitKraken	8.1.1	stable	user
+Decoder	com.belmoussaoui.Decoder	0.2.1	stable	user
+Obfuscate	com.belmoussaoui.Obfuscate	0.0.3	stable	user
+Bitwig Studio	com.bitwig.BitwigStudio	3.3.11	3.3	user
+Discord	com.discordapp.Discord	0.0.16	stable	user
+DIY Layout Creator	com.diy_fever.DIYLayoutCreator	4.20.0	stable	user
+Postman	com.getpostman.Postman	8.11.1	stable	user
+Youp for whatsapp	com.gigitux.youp	2.0	stable	user
+Flacon	com.github.Flacon	7.0.1	stable	user
+Plots	com.github.alexhuntley.Plots	0.6.1	stable	user
+Fondo	com.github.calo001.fondo	1.5.2	stable	user
+AppEditor	com.github.donadigo.appeditor	1.1.0	stable	user
+Marker	com.github.fabiocolacio.marker	2020.04.04	stable	user
+Wike	com.github.hugolabe.Wike	1.6.0	stable	user
+Curtail	com.github.huluti.Curtail	1.2.1	stable	user
+Jellyfin Media Player	com.github.iwalton3.jellyfin-media-player	1.6.1	stable	user
+Text Pieces	com.github.liferooter.textpieces	2.3.2	stable	user
+Tauon Music Box	com.github.taiko2k.tauonmb	6.8.3	stable	user
+Oomox theme designer	com.github.themix_project.Oomox	1.13.3	stable	user
+Remote Touchpad	com.github.unrud.RemoteTouchpad	1.0.3	stable	user
+Xournal++	com.github.xournalpp.xournalpp	1.1.0	stable	user
+Gestures	com.gitlab.cunidev.Gestures	0.2.6	stable	user
+Android Studio	com.google.AndroidStudio	2020.3.1.25	stable	user
+draw.io	com.jgraph.drawio.desktop	15.4.0	stable	user
+GreenWithEnvy	com.leinardi.gwe	0.15.4	stable	user
+Blanket	com.rafaelmardojai.Blanket	0.5.0	stable	user
+Share Preview	com.rafaelmardojai.SharePreview	0.1.2	stable	user
+Spotify	com.spotify.Client	1.1.68.632.g2b11de83	stable	user
+Popsicle	com.system76.Popsicle	1.3.0	stable	user
+Bottles	com.usebottles.bottles	2021.10.28-treviso	stable	user
+Audio Sharing	de.haeckerfelix.AudioSharing	0.1.2	stable	user
+Metadata Cleaner	fr.romainvigier.MetadataCleaner	2.0.1	stable	user
+Boop-GTK	fyi.zoey.Boop-GTK	1.6.0	stable	user
+Guilded	gg.guilded.Guilded	1.0.9109710	stable	user
+Figma for Linux	io.github.Figma_Linux.figma_linux	0.9.2	stable	user
+GPU-Viewer	io.github.arunsivaramanneo.GPUViewer	1.36	stable	user
+Harmonoid	io.github.harmonoid.harmonoid	0.1.7	stable	user
+Emulsion	io.github.lainsce.Emulsion	2.0.1	stable	user
+Khronos	io.github.lainsce.Khronos	3.5.0	stable	user
+FontFinder	io.github.mmstick.FontFinder	2.0.0	stable	user
+Kooha	io.github.seadve.Kooha	2.0.1	stable	user
+Fluent Reader	me.hyliu.fluentreader	1.0.2	stable	user
+Blockbench	net.blockbench.Blockbench	4.0.3	stable	user
+hugin	net.sourceforge.Hugin	2020.0.0	stable	user
+Color Picker	nl.hjdskes.gcolor3	2.4.0	stable	user
+gpx-viewer	nl.sarine.gpx-viewer	0.3	stable	user
+LosslessCut	no.mifi.losslesscut	3.29.0	stable	user
+CoreHunt	org.cubocore.CoreHunt	4.2.0	stable	user
+Entangle	org.entangle_photo.Manager	3.0	stable	user
+FamiStudio	org.famistudio.FamiStudio	3.1.1	stable	user
+Freedesktop Platform	org.freedesktop.Platform	19.08.15	19.08	user
+Freedesktop Platform	org.freedesktop.Platform	20.08.15	20.08	user
+Freedesktop Platform	org.freedesktop.Platform	21.08.4	21.08	user
+i386	org.freedesktop.Platform.Compat.i386		20.08	user
+default	org.freedesktop.Platform.GL.default		19.08	user
+Mesa	org.freedesktop.Platform.GL.default	21.1.8	20.08	user
+Mesa	org.freedesktop.Platform.GL.default	21.2.5	21.08	user
+nvidia-470-63-01	org.freedesktop.Platform.GL.nvidia-470-63-01		1.4	user
+nvidia-470-82-00	org.freedesktop.Platform.GL.nvidia-470-82-00		1.4	user
+default	org.freedesktop.Platform.GL32.default		20.08	user
+default	org.freedesktop.Platform.GL32.default		21.08	user
+nvidia-470-63-01	org.freedesktop.Platform.GL32.nvidia-470-63-01		1.4	user
+Intel	org.freedesktop.Platform.VAAPI.Intel		19.08	user
+Intel	org.freedesktop.Platform.VAAPI.Intel		20.08	user
+Intel	org.freedesktop.Platform.VAAPI.Intel		21.08	user
+ffmpeg-full	org.freedesktop.Platform.ffmpeg-full		20.08	user
+ffmpeg-full	org.freedesktop.Platform.ffmpeg-full		21.08	user
+openh264	org.freedesktop.Platform.openh264	2.1.0	2.0	user
+Freedesktop SDK	org.freedesktop.Sdk	20.08.16	20.08	user
+Gaphor	org.gaphor.Gaphor	2.6.4	stable	user
+GNOME Boxes	org.gnome.Boxes	41.1	stable	user
+GNOME Boxes Osinfo DB	org.gnome.Boxes.Extension.OsinfoDb	20211013	stable	user
+Break Timer	org.gnome.BreakTimer	2.0.3	stable	user
+GNOME Characters	org.gnome.Characters	41.0	stable	user
+Cheese	org.gnome.Cheese	3.38.0	stable	user
+GNOME Hex Editor	org.gnome.GHex	3.18.4	stable	user
+Genius	org.gnome.Genius	1.0.26	stable	user
+GNOME Music	org.gnome.Music	41.0	stable	user
+GNOME Network Displays	org.gnome.NetworkDisplays	0.90.4	stable	user
+Notes	org.gnome.Notes		stable	user
+GNOME Application Platform version 3.36	org.gnome.Platform		3.36	user
+GNOME Application Platform version 3.38	org.gnome.Platform		3.38	user
+GNOME Application Platform version 40	org.gnome.Platform		40	user
+GNOME Application Platform version 41	org.gnome.Platform		41	user
+i386	org.gnome.Platform.Compat.i386		41	user
+Rhythmbox	org.gnome.Rhythmbox3	3.4.4	stable	user
+GNOME Software Development Kit version 3.38	org.gnome.Sdk		3.38	user
+GNOME Clocks	org.gnome.clocks	40.0	stable	user
+Emblem	org.gnome.design.Emblem	0.1.1	stable	user
+Video Trimmer	org.gnome.gitlab.YaLTeR.VideoTrimmer	0.6.1	stable	user
+Godot	org.godotengine.Godot	3.4	stable	user
+Qogir-dark GTK theme	org.gtk.Gtk3theme.Qogir-dark		3.22	user
+Font Downloader	org.gustavoperedo.FontDownloader	8.0.0	stable	user
+KDE Application Platform	org.kde.Platform		5.15	user
+QGnomePlatform	org.kde.PlatformTheme.QGnomePlatform		5.15	user
+QtSNI	org.kde.PlatformTheme.QtSNI		5.15	user
+QGnomePlatform-decoration	org.kde.WaylandDecoration.QGnomePlatform-decoration		5.15	user
+GCompris	org.kde.gcompris	1.1	stable	user
+Haruna Video Player	org.kde.haruna	0.7.1	stable	user
+Index	org.kde.index	1.2.2	stable	user
+qBittorrent	org.qbittorrent.qBittorrent	4.3.9	stable	user
+Standard Notes	org.standardnotes.standardnotes	3.8.21	stable	user
+Warpinator	org.x.Warpinator	1.2.4	stable	user
+Tangram	re.sonny.Tangram	1.3.2	stable	user
+Blue Recorder	sa.sy.bluerecorder	0.1.4	stable	user
+CoBang	vn.hoabinh.quan.CoBang	0.8.0	stable	user
