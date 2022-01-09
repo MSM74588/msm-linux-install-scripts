@@ -10,6 +10,7 @@ sudo add-apt-repository multiverse
 sudo add-apt-repository restricted
 sudo add-apt-repository universe
 sudo apt update
+sudo apt-get update
 
 sudo apt install flatpak plasma-discover-backend-flatpak
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
@@ -56,7 +57,6 @@ sudo snap install gitkraken --classic
 # apt update
 # apt install nohang
 # systemctl enable --now nohang-desktop.service
-
 
 wget -q -O - https://gist.githubusercontent.com/Blastoise/72e10b8af5ca359772ee64b6dba33c91/raw/2d7ab3caa27faa61beca9fbf7d3aca6ce9a25916/clearType.sh | bash #Microsoft ClearType Fonts
 wget -q -O - https://gist.githubusercontent.com/Blastoise/b74e06f739610c4a867cf94b27637a56/raw/96926e732a38d3da860624114990121d71c08ea1/tahoma.sh | bash #Tahoma and Segoe-UI Fonts
