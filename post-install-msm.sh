@@ -1,6 +1,6 @@
 #!/bin/bash
 
-## Preffered OS: Kubuntu
+## Preffered OS: Kubuntu or KDE neon
 # works with any Debian based OS
 
 # For Dual boot systems: 
