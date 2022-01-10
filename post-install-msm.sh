@@ -219,8 +219,8 @@ sudo snap install --devmode --beta anbox
 
 ########### Virtualisation ################
 sudo apt install -y qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils virt-manager
-sudo adduser ‘$whoami’ libvirt
-sudo adduser ‘$whoami’ kvm
+sudo adduser $whoami libvirt
+sudo adduser $whoami kvm
 
 
 # ! Procedure
