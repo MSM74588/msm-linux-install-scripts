@@ -1,0 +1,16 @@
+[$Version]
+update_info=spectacle_newConfig.upd:spectacle-new-config
+
+[General]
+autoSaveImage=true
+copyImageToClipboard=true
+copySaveLocation=false
+
+[GuiConfig]
+captureDelay=3
+
+[KFileDialog Settings]
+
+
+[Save]
+

@@ -1,10 +1,30 @@
 #!/bin/bash
 
+# ┌──────────────────────────────────────────────────────────────────────────────┐
+# │ MSM Post-Install Script. Preffered OS is Kubuntu or KDE Neon                 │
+# └──────────────────────────────────────────────────────────────────────────────┘
+
+
+# https://ubuntu.pkgs.org
+
+# Direct link: bash <(wget -nv -O - https://raw.githubusercontent.com/MSM74588/msm-linux-install-scripts/main/post-install-msm.sh)
+# ^ no dependency
+
 ## Preffered OS: Kubuntu or KDE neon
 # works with any Debian based OS
 
 # For Dual boot systems: 
 #timedatectl set-local-rtc 1
+
+# for konsave:
+# export "$HOME/.local/bin:$PATH" 
+# in .bashrc
+
+# If gstreame causes issue in playback
+# sudo apt-get remove phonon-backend-xine phonon-backend-gstreamer
+
+# Install pling manually
+
 
 sudo add-apt-repository multiverse
 sudo add-apt-repository restricted
@@ -12,16 +32,19 @@ sudo add-apt-repository universe
 sudo apt update
 sudo apt-get update
 
-sudo apt install flatpak plasma-discover-backend-flatpak
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+sudo apt install -y flatpak plasma-discover-backend-flatpak 
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo 
 
 #Reboot might be required after flatpak install
 
 ###################################################### REBOOT BREAK ##########################################################################
 
-sudo apt install curl git python3 python3-pip software-properties-common ttf-mscorefonts-installer ca-certificates \
-gnome-disk-utility akira anjuta mpv fish kamoso htop neofetch grub-customizer stacer openssh-server synaptic latexila modem-manager-gui\
--y
+sudo apt install -y curl git python3 python3-pip software-properties-common ttf-mscorefonts-installer ca-certificates \
+gnome-disk-utility akira anjuta mpv kamoso htop neofetch grub-customizer stacer openssh-server synaptic latexila modem-manager-gui kubuntu-restricted-extras \
+lm-sensors hwinfo dconf-editor gdebi pulseaudio pavucontrol pavucontrol kde-config-plymouth kde-config-systemd kde-config-cron kde-config-tablet \
+kde-config-updates kde-config-whoopsie kde-config-fcitx kde-config-fcitx5 kde-config-gtk-style kde-config-gtk-style-preview winetricks simplescreenrecorder \
+cpupower-gui minitube ghex cool-retro-term 	convertall 
+
 
 sudo flatpak install flathub com.axosoft.GitKraken com.belmoussaoui.Decoder \
 com.belmoussaoui.Obfuscate com.bitwig.BitwigStudio com.discordapp.Discord com.gigitux.youp com.github.Flacon \
@@ -34,19 +57,22 @@ net.blockbench.Blockbench net.sourceforge.Hugin no.mifi.losslesscut nl.sarine.gp
 org.entangle_photo.Manager org.gnome.Rhythmbox3 org.gnome.clocks org.godotengine.Godot org.gustavoperedo.FontDownloader	org.kde.Platform \
 org.kde.haruna org.x.Warpinator re.sonny.Tangram vn.hoabinh.quan.CoBang org.telegram.desktop com.meetfranz.Franz org.gimp.GIMP \
 org.gnome.SoundRecorder com.github.hugolabe.Wike flathub org.gnome.Connections us.zoom.Zoom org.remmina.Remmina org.blender.Blender com.microsoft.Teams \
-org.kde.kdenlive -y
-
+org.gaphor.Gaphor \
+org.kde.kdenlive io.github.prateekmedia.appimagepool -y
 # appimage launcger, ksuperkey, appimagepool, pling KCM = plymouth, systemd, apper, calibrate touchscreen, byobu terminal CRT, 
-# cuttle fish cpupower-gui graphor gcompris github desktop ,ghex glade, convertall, kvantum, minitube, plasmatube, simpleScreenrecorder
+# cuttle cpupower-gui graphor gcompris github desktop ,ghex glade, convertall, kvantum, minitube, plasmatube, simpleScreenrecorder
 # Herioc game launcher, steam, qt, spotify, spotiflyer, tabby, timeshift, winetricks
 
-sudo apt-get install ca-certificates git build-essential cmake gcc g++ libkf5config-dev libkf5auth-dev libkf5package-dev libkf5declarative-dev libkf5coreaddons-dev \
+
+
+sudo apt-get -y install ca-certificates git build-essential cmake gcc g++ libkf5config-dev libkf5auth-dev libkf5package-dev libkf5declarative-dev libkf5coreaddons-dev \
 libkf5dbusaddons-dev libkf5kcmutils-dev libkf5i18n-dev libkf5plasma-dev libqt5core5a \
 libqt5widgets5 libqt5gui5 libqt5qml5 extra-cmake-modules qtbase5-dev libkf5notifications-dev qml-module-org-kde-kirigami2 qml-module-qtquick-dialogs qml-module-qtquick-controls2 \
-qml-module-qtquick-layouts qml-module-qt-labs-settings qml-module-qt-labs-folderlistmodel cmake build-essential gettext KCMUtils default-jdk openjdk-11-jre-headless openjdk-8-jre-headless -y
+qml-module-qtquick-layouts qml-module-qt-labs-settings qml-module-qt-labs-folderlistmodel cmake build-essential gettext KCMUtils default-jdk openjdk-11-jre-headless openjdk-8-jre-headless \
+q4wine libgstreamer1.0-dev libgstreamer-plugins-bad1.0-dev libgstreamer-plugins-base1.0-dev libgstreamer-plugins-good1.0-dev 
 
 # qt5 tools/ Qt designer
-sudo apt-get install python3-pyqt5 qtcreator pyqt5-dev-tools qttools5-dev-tools 
+sudo apt-get -y install python3-pyqt5 qtcreator pyqt5-dev-tools qttools5-dev-tools 
 
 sudo snap install gitkraken --classic
 
@@ -65,7 +91,7 @@ wget -q -O - https://gist.githubusercontent.com/Blastoise/d959d3196fb3937b369690
 
 ###################
 
-sudo apt-get install fonts-cantarell ttf-ubuntu-font-family git
+sudo apt-get -y install fonts-cantarell ttf-ubuntu-font-family git
 srcdir="/tmp/google-fonts"
 pkgdir="/usr/share/fonts/truetype/google-fonts"
 giturl="git://github.com/google/fonts.git"
@@ -99,18 +125,34 @@ curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microso
 install -o root -g root -m 644 microsoft.gpg /etc/apt/trusted.gpg.d/
 echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list
 rm microsoft.gpg
-apt-get update
-apt-get install -y code
+sudo apt-get update
+sudo apt-get install -y code
 
 # ! Plasma Shell [uncomment if want to install]
 # sudo apt install kde-standard 
 
-# sudo wget https://github.com/shiftkey/desktop/releases/download/release-2.9.3-linux3/GitHubDesktop-linux-2.9.3-linux3.deb
-# sudo gdebi GitHubDesktop-linux-2.9.3-linux3.deb
-# wget https://tlauncher.org/jar
-# wget https://github.com/jely2002/youtube-dl-gui/releases/download/v2.4.0/Open-Video-Downloader-2.4.0.AppImage
-# min browser 
-# youtube-dl
+mkdir $HOME/Desktop/manual-install-pkgs
+cd $HOME/Desktop/manual-install-pkgs
+wget \
+https://github.com/shiftkey/desktop/releases/download/release-2.9.3-linux3/GitHubDesktop-linux-2.9.3-linux3.deb https://tlauncher.org/jar \
+https://github.com/jely2002/youtube-dl-gui/releases/download/v2.4.0/Open-Video-Downloader-2.4.0.AppImage \
+https://github.com/minbrowser/min/releases/download/v1.22.2/min_1.22.2_amd64.deb \
+https://github.com/TheAssassin/AppImageLauncher/releases/download/v2.2.0/appimagelauncher_2.2.0-travis995.0f91801.bionic_amd64.deb \
+https://github.com/popcorn-official/popcorn-desktop/releases/download/v0.4.6/Popcorn-Time-0.4.6-amd64.deb \
+https://github.com/Shabinder/SpotiFlyer/releases/download/v3.5.0/spotiflyer_3.5.0-1_amd64.deb \
+https://github.com/responsively-org/responsively-app/releases/download/v0.18.0/ResponsivelyApp-0.18.0.AppImage \
+https://github.com/sharkwouter/minigalaxy/releases/download/1.1.0/minigalaxy_1.1.0_all.deb \
+https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.0.2/Heroic-2.0.2.AppImage \
+https://github.com/GloriousEggroll/proton-ge-custom/releases/download/7.0rc3-GE-1/Proton-7.0rc3-GE-1.tar.gz \
+
+
+wget -O ~/steam.deb http://media.steampowered.com/client/installer/steam.deb
+
+cd $HOME
+
+#youtube-dl
+sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
+sudo chmod a+rx /usr/local/bin/youtube-dl
 
 echo "deb http://deb.volian.org/volian/ scar main" | sudo tee /etc/apt/sources.list.d/volian-archive-scar-unstable.list > /dev/null
 wget -qO - https://deb.volian.org/volian/scar.key | sudo tee /etc/apt/trusted.gpg.d/volian-archive-scar-unstable.gpg > /dev/null
@@ -119,15 +161,15 @@ sudo apt update && sudo apt install kwin-bismuth
 
 sudo add-apt-repository ppa:papirus/papirus
 sudo apt update
-sudo apt install qt5-style-kvantum qt5-style-kvantum-themes
+sudo apt install -y qt5-style-kvantum qt5-style-kvantum-themes
 
 sudo add-apt-repository ppa:ernstp/mesarc
 sudo apt-get update
-sudo apt install corectrl
+sudo apt install -y corectrl
 
 sudo add-apt-repository -y ppa:teejee2008/timeshift
 sudo apt-get update
-sudo apt-get install timeshift
+sudo apt-get install -y timeshift
 
 # Fancontrol-GUI
 
@@ -144,12 +186,40 @@ cd $HOME
 
 ######################
 
-
-python3 -m pip install konsave
+# Pip3 required to restart
+python3 -m pip install konsave #this requires restart
 pip3 install -U guiscrcpy
 
 ########### Gaming Pkgs ###############
+# configured for Steam, minigalaxy, winetricks, wine, lutrus
+#
+
+# lutrius
+sudo add-apt-repository ppa:lutris-team/lutris
+sudo apt update
+sudo apt install -y lutris
+
+# wine
+sudo dpkg --add-architecture i386  
+wget -nc https://dl.winehq.org/wine-builds/winehq.key
+sudo apt-key add winehq.key
+sudo add-apt-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ focal main' 
+sudo apt-get update
+
+sudo add-apt-repository ppa:cybermax-dexter/sdl2-backport
+sudo apt-get update
+sudo apt-get install --install-recommends winehq-stable
+
+
+########### Android ###############
+sudo apt-get install -y android-tools-adb android-tools-fastboot
+sudo snap install --devmode --beta anbox
+
 ########### Virtualisation ################
+sudo apt install -y qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils virt-manager
+sudo adduser ‘$whoami’ libvirt
+sudo adduser ‘$whoami’ kvm
+
 
 # ! Procedure
 # 1. wget and bash 
@@ -160,3 +230,30 @@ pip3 install -U guiscrcpy
 # - Notflix
 # - AniCli
 # - Aniancy and nohang
+
+# KsuperKey
+cd $HOME/pkgs-msm
+git clone https://github.com/hanschen/ksuperkey.git
+sudo apt-get install -y git gcc make libx11-dev libxtst-dev pkg-config
+cd ksuperkey
+make
+sudo make install
+
+#Configure fish
+sudo apt-add-repository ppa:fish-shell/release-3
+sudo apt update
+sudo apt install fish
+
+chsh -s /usr/bin/fish
+mkdir -p ~/.config/fish
+set -g -x fish_greeting ''
+# Install Nerd fonts
+
+#setup marker
+git clone --depth=1 https://github.com/pindexis/marker ~/.marker && ~/.marker/install.py
+
+
+curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
+
+
+echo "[COMPLETED] Script completed! Initial setup done!"

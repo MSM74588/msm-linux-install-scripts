@@ -1,0 +1,10 @@
+Contains all the important tweaked files from the .config folder in KDE
+
+Some Config files contains display information that needs to be removed
+ad also some contains some History
+
+And SOme contains plugin details....for which the required needs to be installed in the system before hand
+
+And Google Fonts need to be Installed to work like Rubik and Dolphin Plugins
+
+and some KCM modules need to be added like SDDM, SystemMD, Plymouth....

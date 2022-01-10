@@ -1,0 +1,28 @@
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAOjAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+
+[$Version]
+update_info=gwenview.upd:SideBar_StatusBar_Rename,gwenview.upd:ImageView_AlphaBackgroundMode_Update,gwenview.upd:DeleteThumbnailSetting_Rename
+
+[General]
+DefaultExportPluginText=&Install Plugins
+ViewBackgroundValue=55
+
+[ImageView]
+AnimationMethod=DocumentView::NoAnimation
+MouseWheelBehavior=MouseWheelBehavior::Zoom
+
+[MainWindow]
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAOjAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+
+[Phonon::AudioOutput]
+Gwenview_Volume=0.95
+
+[Print]
+PrintHeight=10.01
+
+[Recent Files]
+
+[SideBar]
+IsVisible ViewMode=false
+SideBarSplitterSizes=248,1669
