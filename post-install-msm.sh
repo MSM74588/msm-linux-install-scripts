@@ -57,7 +57,7 @@ net.blockbench.Blockbench net.sourceforge.Hugin no.mifi.losslesscut nl.sarine.gp
 org.entangle_photo.Manager org.gnome.Rhythmbox3 org.gnome.clocks org.godotengine.Godot org.gustavoperedo.FontDownloader	org.kde.Platform \
 org.kde.haruna org.x.Warpinator re.sonny.Tangram vn.hoabinh.quan.CoBang org.telegram.desktop com.meetfranz.Franz org.gimp.GIMP \
 org.gnome.SoundRecorder com.github.hugolabe.Wike flathub org.gnome.Connections us.zoom.Zoom org.remmina.Remmina org.blender.Blender com.microsoft.Teams \
-org.gaphor.Gaphor \
+org.gaphor.Gaphor com.github.Matoking.protontricks \
 org.kde.kdenlive io.github.prateekmedia.appimagepool -y
 # appimage launcger, ksuperkey, appimagepool, pling KCM = plymouth, systemd, apper, calibrate touchscreen, byobu terminal CRT, 
 # cuttle cpupower-gui graphor gcompris github desktop ,ghex glade, convertall, kvantum, minitube, plasmatube, simpleScreenrecorder
