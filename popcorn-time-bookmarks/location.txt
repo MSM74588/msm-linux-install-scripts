@@ -1,0 +1,1 @@
+place bookmarks.db in $HOME/.config/Popcorn-Time/Default/data/
