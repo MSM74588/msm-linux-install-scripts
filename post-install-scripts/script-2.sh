@@ -9,13 +9,13 @@ cpupower-gui minitube ghex cool-retro-term 	convertall filelight
 
 
 sudo flatpak install flathub com.axosoft.GitKraken com.belmoussaoui.Decoder \
-com.belmoussaoui.Obfuscate com.bitwig.BitwigStudio com.discordapp.Discord com.gigitux.youp com.github.Flacon \
+com.belmoussaoui.Obfuscate com.discordapp.Discord com.gigitux.youp com.github.Flacon \
 com.github.alexhuntley.Plots com.github.calo001.fondo com.github.donadigo.appeditor com.github.fabiocolacio.marker \
 com.github.iwalton3.jellyfin-media-player com.github.liferooter.textpieces com.github.taiko2k.tauonmb com.github.unrud.RemoteTouchpad \
 com.github.xournalpp.xournalpp com.jgraph.drawio.desktop com.rafaelmardojai.Blanket com.leinardi.gwe com.rafaelmardojai.SharePreview \
 com.spotify.Client com.usebottles.bottles de.haeckerfelix.AudioSharing fr.romainvigier.MetadataCleaner \
 io.github.arunsivaramanneo.GPUViewer io.github.lainsce.Khronos me.hyliu.fluentreader \
-net.blockbench.Blockbench net.sourceforge.Hugin no.mifi.losslesscut nl.sarine.gpx-viewer\
+net.blockbench.Blockbench net.sourceforge.Hugin no.mifi.losslesscut nl.sarine.gpx-viewer \
 org.entangle_photo.Manager org.gnome.Rhythmbox3 org.gnome.clocks org.godotengine.Godot org.gustavoperedo.FontDownloader	org.kde.Platform \
 org.kde.haruna org.x.Warpinator re.sonny.Tangram vn.hoabinh.quan.CoBang org.telegram.desktop com.meetfranz.Franz org.gimp.GIMP \
 org.gnome.SoundRecorder com.github.hugolabe.Wike flathub org.gnome.Connections us.zoom.Zoom org.remmina.Remmina org.blender.Blender com.microsoft.Teams \
@@ -25,6 +25,7 @@ org.kde.kdenlive io.github.prateekmedia.appimagepool -y
 # cuttle cpupower-gui graphor gcompris github desktop ,ghex glade, convertall, kvantum, minitube, plasmatube, simpleScreenrecorder
 # Herioc game launcher, steam, qt, spotify, spotiflyer, tabby, timeshift, winetricks
 
+sudo flatpak install flathub com.bitwig.BitwigStudio
 
 
 sudo apt-get -y install ca-certificates git build-essential cmake gcc g++ libkf5config-dev libkf5auth-dev libkf5package-dev libkf5declarative-dev libkf5coreaddons-dev \
