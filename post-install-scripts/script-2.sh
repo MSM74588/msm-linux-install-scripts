@@ -16,7 +16,7 @@ com.github.xournalpp.xournalpp com.jgraph.drawio.desktop com.rafaelmardojai.Blan
 com.spotify.Client com.usebottles.bottles de.haeckerfelix.AudioSharing fr.romainvigier.MetadataCleaner \
 io.github.arunsivaramanneo.GPUViewer io.github.lainsce.Khronos me.hyliu.fluentreader \
 net.blockbench.Blockbench net.sourceforge.Hugin no.mifi.losslesscut nl.sarine.gpx-viewer \
-org.entangle_photo.Manager org.gnome.Rhythmbox3 org.gnome.clocks org.godotengine.Godot org.gustavoperedo.FontDownloader	org.kde.Platform \
+org.entangle_photo.Manager org.gnome.Rhythmbox3 org.gnome.clocks org.godotengine.Godot org.kde.Platform \
 org.kde.haruna org.x.Warpinator re.sonny.Tangram vn.hoabinh.quan.CoBang org.telegram.desktop com.meetfranz.Franz org.gimp.GIMP \
 org.gnome.SoundRecorder com.github.hugolabe.Wike flathub org.gnome.Connections us.zoom.Zoom org.remmina.Remmina org.blender.Blender com.microsoft.Teams \
 org.gaphor.Gaphor com.github.Matoking.protontricks app.getspace.Space org.coolero.Coolero \
