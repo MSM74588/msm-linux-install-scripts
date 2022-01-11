@@ -1,52 +1,5 @@
 #!/bin/bash
-
-# ┌──────────────────────────────────────────────────────────────────────────────┐
-# │ MSM Post-Install Script. Preffered OS is Kubuntu or KDE Neon                 │
-# └──────────────────────────────────────────────────────────────────────────────┘
-
-
-# https://ubuntu.pkgs.org
-
-# Direct link: bash <(wget -nv -O - https://raw.githubusercontent.com/MSM74588/msm-linux-install-scripts/main/post-install-msm.sh)
-# ^ no dependency
-
-## Preffered OS: Kubuntu or KDE neon
-# works with any Debian based OS
-
-# For Dual boot systems: 
-#timedatectl set-local-rtc 1
-
-# for konsave:
-# export "$HOME/.local/bin:$PATH" 
-# in .bashrc
-
-# If gstreame causes issue in playback
-# sudo apt-get remove phonon-backend-xine phonon-backend-gstreamer
-
-# Install pling manually
-
-
-sudo add-apt-repository multiverse
-sudo add-apt-repository restricted
-sudo add-apt-repository universe
-sudo apt update
-sudo apt-get update
-
-sudo apt install -y flatpak plasma-discover-backend-flatpak 
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo 
-
-#Reboot might be required after flatpak install
-
-#Configure fish
-sudo apt-add-repository ppa:fish-shell/release-3
-sudo apt update
-sudo apt install fish
-
-chsh -s /usr/bin/fish
-mkdir -p ~/.config/fish
-set -g -x fish_greeting ''
-
-###################################################### REBOOT BREAK ##########################################################################
+# bash <(wget -nv -O - https://raw.githubusercontent.com/MSM74588/msm-linux-install-scripts/main/post-install-scripts/script-2.sh)
 
 sudo apt install -y curl git python3 python3-pip software-properties-common ttf-mscorefonts-installer ca-certificates \
 gnome-disk-utility akira anjuta mpv kamoso htop neofetch grub-customizer stacer openssh-server synaptic latexila modem-manager-gui kubuntu-restricted-extras \
@@ -86,6 +39,9 @@ sudo apt-get -y install python3-pyqt5 qtcreator pyqt5-dev-tools qttools5-dev-too
 sudo snap install gitkraken --classic
 
 
+cd $HOME/Desktop
+git clone https://github.com/MSM74588/msm-linux-install-scripts.git 
+cd $HOME
 
 # ! Build nohang from source, this method is not reliable 
 # add-apt-repository ppa:oibaf/test
@@ -260,6 +216,8 @@ git clone --depth=1 https://github.com/pindexis/marker ~/.marker && ~/.marker/in
 
 
 curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
+
+
 
 
 echo "[COMPLETED] Script completed! Initial setup done!"
