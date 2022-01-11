@@ -22,6 +22,13 @@
     Extract Here and Delete
     Git
     Mount and Unmount iso image
+
+[Dolphin Setting : View]
+    Sort by:
+        Modified
+        Newest First
+    Show in Groups: True
+    Show Preview: True 
     
 [General behavior]
     Animation Speed: ~70%
