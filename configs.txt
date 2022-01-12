@@ -352,4 +352,6 @@ Keyboard shortcuts
 Browsers: Vivaldi, Firefox, Min, Brave, Edge, Opera, 
 falkon, GnomeWeb, DeGoogledChrome(Github), Chromium
 
+Vivaldi Theme [custom install]: Calming Nature
+
 ###########################################################################
