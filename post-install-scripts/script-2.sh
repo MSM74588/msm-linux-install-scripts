@@ -20,7 +20,7 @@ org.entangle_photo.Manager org.gnome.Rhythmbox3 org.gnome.clocks org.godotengine
 org.kde.haruna org.x.Warpinator re.sonny.Tangram vn.hoabinh.quan.CoBang org.telegram.desktop com.meetfranz.Franz org.gimp.GIMP \
 org.gnome.SoundRecorder com.github.hugolabe.Wike flathub org.gnome.Connections us.zoom.Zoom org.remmina.Remmina org.blender.Blender com.microsoft.Teams \
 org.gaphor.Gaphor com.github.Matoking.protontricks app.getspace.Space org.coolero.Coolero \
-org.kde.kdenlive io.github.prateekmedia.appimagepool -y
+org.kde.kdenlive io.github.prateekmedia.appimagepool com.github.muriloventuroso.easyssh -y
 # appimage launcger, ksuperkey, appimagepool, pling KCM = plymouth, systemd, apper, calibrate touchscreen, byobu terminal CRT, 
 # cuttle cpupower-gui graphor gcompris github desktop ,ghex glade, convertall, kvantum, minitube, plasmatube, simpleScreenrecorder
 # Herioc game launcher, steam, qt, spotify, spotiflyer, tabby, timeshift, winetricks
