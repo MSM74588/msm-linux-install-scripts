@@ -217,6 +217,7 @@ git clone --depth=1 https://github.com/pindexis/marker ~/.marker && ~/.marker/in
 
 
 curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
+# suggested theme agnoster
 
 
 

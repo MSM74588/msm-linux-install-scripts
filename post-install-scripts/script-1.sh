@@ -11,6 +11,11 @@ sudo apt-get update
 sudo apt install -y flatpak plasma-discover-backend-flatpak 
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo 
 
+#disable kde5 wallet
+pkill kwallet
+kwriteconfig5 --file kwalletrc --group 'Wallet' --key 'Enabled' 'false'
+kwriteconfig5 --file kwalletrc --group 'Wallet' --key 'First Use' 'false'
+
 #Configure fish
 sudo apt-add-repository ppa:fish-shell/release-3
 sudo apt update
