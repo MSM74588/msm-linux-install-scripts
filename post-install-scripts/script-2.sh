@@ -5,7 +5,7 @@ sudo apt install -y curl git python3 python3-pip software-properties-common ttf-
 gnome-disk-utility akira anjuta mpv kamoso htop neofetch grub-customizer stacer openssh-server synaptic latexila modem-manager-gui kubuntu-restricted-extras \
 lm-sensors hwinfo dconf-editor gdebi pulseaudio pavucontrol pavucontrol kde-config-plymouth kde-config-systemd kde-config-cron kde-config-tablet \
 kde-config-updates kde-config-whoopsie kde-config-fcitx kde-config-fcitx5 kde-config-gtk-style kde-config-gtk-style-preview winetricks simplescreenrecorder \
-cpupower-gui minitube ghex cool-retro-term 	convertall filelight
+cpupower-gui minitube ghex cool-retro-term 	convertall filelight handbrake
 
 
 sudo flatpak install flathub com.axosoft.GitKraken com.belmoussaoui.Decoder \
