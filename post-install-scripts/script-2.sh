@@ -5,7 +5,7 @@ sudo apt install -y curl git python3 python3-pip software-properties-common ttf-
 gnome-disk-utility akira anjuta mpv kamoso htop neofetch grub-customizer stacer openssh-server synaptic latexila modem-manager-gui kubuntu-restricted-extras \
 lm-sensors hwinfo dconf-editor gdebi pulseaudio pavucontrol pavucontrol kde-config-plymouth kde-config-systemd kde-config-cron kde-config-tablet \
 kde-config-updates kde-config-whoopsie kde-config-fcitx kde-config-fcitx5 kde-config-gtk-style kde-config-gtk-style-preview winetricks simplescreenrecorder \
-cpupower-gui minitube ghex cool-retro-term 	convertall filelight handbrake net-tools
+cpupower-gui minitube ghex cool-retro-term 	convertall filelight handbrake net-tools  openjdk-8-jdk
 
 
 sudo flatpak install flathub com.axosoft.GitKraken com.belmoussaoui.Decoder \
@@ -31,7 +31,7 @@ sudo flatpak install flathub com.bitwig.BitwigStudio
 sudo apt-get -y install ca-certificates git build-essential cmake gcc g++ libkf5config-dev libkf5auth-dev libkf5package-dev libkf5declarative-dev libkf5coreaddons-dev \
 libkf5dbusaddons-dev libkf5kcmutils-dev libkf5i18n-dev libkf5plasma-dev libqt5core5a \
 libqt5widgets5 libqt5gui5 libqt5qml5 extra-cmake-modules qtbase5-dev libkf5notifications-dev qml-module-org-kde-kirigami2 qml-module-qtquick-dialogs qml-module-qtquick-controls2 \
-qml-module-qtquick-layouts qml-module-qt-labs-settings qml-module-qt-labs-folderlistmodel cmake build-essential gettext KCMUtils default-jdk openjdk-11-jre-headless openjdk-8-jre-headless \
+qml-module-qtquick-layouts qml-module-qt-labs-settings qml-module-qt-labs-folderlistmodel cmake build-essential gettext KCMUtils \
 q4wine libgstreamer1.0-dev libgstreamer-plugins-bad1.0-dev libgstreamer-plugins-base1.0-dev libgstreamer-plugins-good1.0-dev 
 
 # qt5 tools/ Qt designer
