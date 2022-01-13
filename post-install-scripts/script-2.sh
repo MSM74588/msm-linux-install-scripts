@@ -141,6 +141,8 @@ sudo apt-get install -y timeshift
 
 # Fancontrol-GUI
 
+
+
 mkdir $HOME/pkgs-msm
 cd $HOME/pkgs-msm
 git clone https://github.com/Maldela/fancontrol-gui.git
@@ -150,6 +152,18 @@ cd build
 cmake .. -DCMAKE_INSTALL_PREFIX=/usr -DBUILD_KCM=on -DBUILD_PLASMOID=on
 make -j
 sudo make install
+
+# install lightly theme
+cd ..
+sudo apt install -y build-essential libkf5config-dev libkdecorations2-dev libqt5x11extras5-dev qtdeclarative5-dev extra-cmake-modules libkf5guiaddons-dev \
+libkf5configwidgets-dev libkf5windowsystem-dev libkf5coreaddons-dev libkf5iconthemes-dev gettext qt3d5-dev
+
+git clone --single-branch --depth=1 https://github.com/Luwx/Lightly.git
+cd Lightly && mkdir build && cd build
+cmake -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_INSTALL_LIBDIR=lib -DBUILD_TESTING=OFF ..
+make
+sudo make install
+
 cd $HOME
 
 ######################
