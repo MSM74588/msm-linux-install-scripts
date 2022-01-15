@@ -274,6 +274,9 @@
     System76 Power
     Ubuntu Appindicators
 
+    {not yet tried but awesome}
+    fly-pie
+
 [Preffered Themes]
     Applications: Qogir or Gruvbox or WhiteSur-dark-solid
     Cursor: Google-Dot-Blue
