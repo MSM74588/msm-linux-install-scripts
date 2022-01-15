@@ -111,7 +111,8 @@ https://github.com/sharkwouter/minigalaxy/releases/download/1.1.0/minigalaxy_1.1
 https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.0.2/Heroic-2.0.2.AppImage \
 https://github.com/GloriousEggroll/proton-ge-custom/releases/download/7.0rc3-GE-1/Proton-7.0rc3-GE-1.tar.gz \
 https://github.com/weiameili/Pensela/releases/download/v1.1.3/pensela_1.1.3_amd64.deb \
-https://github.com/notion-enhancer/notion-repackaged/releases/download/v2.0.18-1/notion-app-enhanced_2.0.18-1_amd64.deb
+https://github.com/notion-enhancer/notion-repackaged/releases/download/v2.0.18-1/notion-app-enhanced_2.0.18-1_amd64.deb \
+https://dn3.freedownloadmanager.org/6/latest/freedownloadmanager.deb
 
 
 wget -O ~/steam.deb http://media.steampowered.com/client/installer/steam.deb
