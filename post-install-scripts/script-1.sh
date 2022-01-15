@@ -5,6 +5,7 @@
 sudo add-apt-repository multiverse
 sudo add-apt-repository restricted
 sudo add-apt-repository universe
+sudo dpkg --add-architecture i386 
 sudo apt update
 sudo apt-get update
 
