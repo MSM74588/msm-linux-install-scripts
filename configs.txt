@@ -310,6 +310,11 @@
     WSL 
     Edge deflector
     Adobe Acrobat
+    notepad++
+
+    {Not yet used}
+    WinHotKey
+    BrowserTamer (productHunt)
 
 [Online Tool]
     Ninite
