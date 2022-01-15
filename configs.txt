@@ -223,7 +223,7 @@
 │ GNOME                                                                        │
 └──────────────────────────────────────────────────────────────────────────────┘
 [Customisation Application]
-    Plank Dock
+    Plank Dock (not required if pop installed)
     Dconf Editor
     Gnome-tweaks
     Pling Store
@@ -276,6 +276,7 @@
 
     {not yet tried but awesome}
     fly-pie
+    Sticky notes for the GNOME Shell desktop.
 
 [Preffered Themes]
     Applications: Qogir or Gruvbox or WhiteSur-dark-solid
