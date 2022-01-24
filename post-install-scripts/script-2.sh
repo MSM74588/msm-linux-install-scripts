@@ -25,6 +25,7 @@ org.kde.kdenlive io.github.prateekmedia.appimagepool com.github.muriloventuroso.
 # cuttle cpupower-gui graphor gcompris github desktop ,ghex glade, convertall, kvantum, minitube, plasmatube, simpleScreenrecorder
 # Herioc game launcher, steam, qt, spotify, spotiflyer, tabby, timeshift, winetricks
 # QuickAccess
+#Discord Flatpak is unofficial
 
 sudo flatpak install flathub com.bitwig.BitwigStudio
 
