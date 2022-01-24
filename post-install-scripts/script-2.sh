@@ -8,24 +8,42 @@ kde-config-updates kde-config-whoopsie kde-config-fcitx kde-config-fcitx5 kde-co
 cpupower-gui minitube ghex cool-retro-term 	convertall filelight handbrake net-tools  openjdk-8-jdk
 
 
-sudo flatpak install flathub com.axosoft.GitKraken com.belmoussaoui.Decoder \
-com.belmoussaoui.Obfuscate com.discordapp.Discord com.gigitux.youp com.github.Flacon \
+sudo flatpak install flathub com.axosoft.GitKraken com.belmoussaoui.Decoder com.github.muriloventuroso.pdftricks flathub org.cubocore.CoreStats \
+com.belmoussaoui.Obfuscate com.discordapp.Discord com.gigitux.youp com.github.Flacon com.github.tchx84.Flatseal  dev.atoft.Reactions \
 com.github.alexhuntley.Plots com.github.calo001.fondo com.github.donadigo.appeditor com.github.fabiocolacio.marker \
 com.github.iwalton3.jellyfin-media-player com.github.liferooter.textpieces com.github.taiko2k.tauonmb com.github.unrud.RemoteTouchpad \
 com.github.xournalpp.xournalpp com.jgraph.drawio.desktop com.rafaelmardojai.Blanket com.leinardi.gwe com.rafaelmardojai.SharePreview \
-com.spotify.Client com.usebottles.bottles de.haeckerfelix.AudioSharing fr.romainvigier.MetadataCleaner \
-io.github.arunsivaramanneo.GPUViewer io.github.lainsce.Khronos me.hyliu.fluentreader \
-net.blockbench.Blockbench net.sourceforge.Hugin no.mifi.losslesscut nl.sarine.gpx-viewer \
+com.spotify.Client com.usebottles.bottles de.haeckerfelix.AudioSharing fr.romainvigier.MetadataCleaner org.gnome.Connections \
+io.github.arunsivaramanneo.GPUViewer io.github.lainsce.Khronos me.hyliu.fluentreader org.kde.kclock org.gnome.design.IconLibrary \
+net.blockbench.Blockbench net.sourceforge.Hugin no.mifi.losslesscut nl.sarine.gpx-viewer io.github.prateekmedia.flutube \
 org.entangle_photo.Manager org.gnome.Rhythmbox3 org.gnome.clocks org.godotengine.Godot org.kde.Platform \
 org.kde.haruna org.x.Warpinator re.sonny.Tangram vn.hoabinh.quan.CoBang org.telegram.desktop com.meetfranz.Franz org.gimp.GIMP \
-org.gnome.SoundRecorder com.github.hugolabe.Wike flathub org.gnome.Connections us.zoom.Zoom org.remmina.Remmina org.blender.Blender com.microsoft.Teams \
-org.gaphor.Gaphor com.github.Matoking.protontricks app.getspace.Space org.coolero.Coolero \
-org.kde.kdenlive io.github.prateekmedia.appimagepool com.github.muriloventuroso.easyssh -y
+org.gnome.SoundRecorder com.github.hugolabe.Wike flathub org.gnome.Connections us.zoom.Zoom org.remmina.Remmina org.blender.Blender \
+org.gaphor.Gaphor com.github.Matoking.protontricks app.getspace.Space org.coolero.Coolero net.davidotek.pupgui2 com.github.alexkdeveloper.desktop-files-creator \
+org.kde.kdenlive io.github.prateekmedia.appimagepool com.github.muriloventuroso.easyssh fyi.zoey.TeX-Match -y
 # appimage launcger, ksuperkey, appimagepool, pling KCM = plymouth, systemd, apper, calibrate touchscreen, byobu terminal CRT, 
 # cuttle cpupower-gui graphor gcompris github desktop ,ghex glade, convertall, kvantum, minitube, plasmatube, simpleScreenrecorder
 # Herioc game launcher, steam, qt, spotify, spotiflyer, tabby, timeshift, winetricks
+# QuickAccess
 
 sudo flatpak install flathub com.bitwig.BitwigStudio
+
+##################### Configure Trackpad Gestures ################################
+sudo flatpak install flathub com.github.joseexposito.touche -y
+
+sudo add-apt-repository ppa:touchegg/stable
+sudo apt update
+sudo apt install touchegg -y
+
+git clone https://github.com/NayamAmarshe/ToucheggKDE.git
+cd Touchegg*
+mkdir ~/.config/touchegg
+cp touch* ~/.config/touchegg/
+
+##################### Configure On-Screen Keyboard (Onboard) ##########################
+sudo apt install onboard -y
+
+#######################################################################################
 
 
 sudo apt-get -y install ca-certificates git build-essential cmake gcc g++ libkf5config-dev libkf5auth-dev libkf5package-dev libkf5declarative-dev libkf5coreaddons-dev \
@@ -112,7 +130,9 @@ https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v
 https://github.com/GloriousEggroll/proton-ge-custom/releases/download/7.0rc3-GE-1/Proton-7.0rc3-GE-1.tar.gz \
 https://github.com/weiameili/Pensela/releases/download/v1.1.3/pensela_1.1.3_amd64.deb \
 https://github.com/notion-enhancer/notion-repackaged/releases/download/v2.0.18-1/notion-app-enhanced_2.0.18-1_amd64.deb \
-https://dn3.freedownloadmanager.org/6/latest/freedownloadmanager.deb
+https://dn3.freedownloadmanager.org/6/latest/freedownloadmanager.deb \
+
+# Install Microsoft teams manually
 
 
 wget -O ~/steam.deb http://media.steampowered.com/client/installer/steam.deb
