@@ -315,6 +315,8 @@
     {Not yet used}
     WinHotKey
     BrowserTamer (productHunt)
+    
+    https://www.reddit.com/r/GenP/wiki/redditgenpguides#wiki_guide_.232_-_dummy_guide_for_first_timers_genp_.28method_1.3A_cc.2Bgenp.29
 
 [Online Tool]
     Ninite
